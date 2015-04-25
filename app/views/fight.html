@@ -1,0 +1,22 @@
+<style>
+#fight{
+  text-align: center;
+}
+#fight h1{
+  font-size: 200px;
+}
+#fight h2{
+  font-size: 125px;
+}
+#fight h3{
+  font-size: 60px;
+}
+</style>
+
+<div class="row text-center" id="fight">
+  <h1>{{ clock }}</h1>
+
+  <h2>{{ exercise }}</h2>
+
+  <h3><span ng-show="comingUp.length > 0">Coming Up:</span> {{ comingUp }}</h3>
+</div>
